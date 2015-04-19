@@ -1,0 +1,23 @@
+/* Mixins */
+@mixin createSprite($width, $height, $margin, $images) {
+  position: relative;
+  overflow: hidden;
+  height: $height;
+  width: $width;
+  margin: $margin;
+
+  .base {
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+    @each $top in $images {
+      $i: index($images, $top);
+
+      &.img-#{$i} {
+          top: $top;
+      }
+    }
+  }
+}

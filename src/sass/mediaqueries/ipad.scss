@@ -1,0 +1,132 @@
+@import '../../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables';
+
+@media only screen and (min-device-width: $screen-xs-max) {
+  .user-welcome {
+    .left {
+      margin-left: 8px;
+    }
+
+    .right {
+      margin-right: 0px;
+    }
+  }
+
+  .main-title {
+    font-size: 1.6em;
+    margin-top: 5px;
+  }
+
+  .rules {
+    .milk {
+      .left {
+        margin-left: 20px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .buttons {
+      width: 255px;
+    }
+
+    .register-ticket {
+      margin-left: 50px;
+      margin-top: 35px;
+    }
+
+    footer {
+      p {
+        margin-top: 0px;
+      }
+
+      .city {
+        bottom: 30px;
+      }
+    }
+  }
+
+  .personalities {
+
+
+    .block {
+      .right {
+        padding-left: 15px;
+      }
+    }
+
+    .item {
+      .right {
+        padding-left: 15px;
+      }
+    }
+
+    .buttons {
+      width: 250px;
+      padding-left: 0px;
+    }
+
+    .play-button {
+      margin-left: 50px;
+      padding-top: 20px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: $screen-xs-max) and (orientation: landscape) {
+  .user-welcome {
+    .left {
+      margin-left: 30px;
+    }
+
+    .right {
+      margin-right: 25px;
+    }
+  }
+
+  .rules {
+    .rules-text {
+      padding-bottom: 0px;
+
+      p {
+        margin: 0px;
+      }
+    }
+
+    .milk {
+      .left {
+        margin-left: 5px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        width: 120px;
+        height: 210px;
+      }
+
+    .register-ticket {
+      margin-left: 100px;
+    }
+
+    footer {
+      p {
+        margin-top: 0px;
+      }
+    }
+  }
+
+    .buttons {
+      width: 300px;
+    }
+  }
+
+  .personalities {
+    .buttons {
+      width: 300px;
+    }
+
+    .play-button {
+      margin-left: 100px;
+    }
+  }
+
+  footer {
+    margin-top: 35px;
+  }
+}

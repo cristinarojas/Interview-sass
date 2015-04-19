@@ -1,0 +1,17 @@
+@import '../../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables';
+
+@media only screen and (max-device-width: $screen-xs-max) {
+  html {
+    body {
+      height: auto;
+
+      footer {
+        font-size: 1.6em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: $screen-xs-max) and (orientation: landscape) {
+
+}

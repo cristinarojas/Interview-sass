@@ -1,0 +1,79 @@
+#ui-datepicker-div {
+  background: linear-gradient(to bottom, #ffffff 0%,#f0f0f2 100%);
+  margin-left: -200px;
+  border-radius: 5px;
+  border: 1px solid #e2e4e7;
+  text-transform: uppercase;
+  padding: 5px 5px 3px;
+}
+
+.ui-datepicker {
+  width: 19em;
+  font:{
+    family: 'ITC Avant';
+    size: 10px;
+  }
+  .ui-datepicker-header {
+    padding: 0;
+    border:{
+      left: 1px solid #e2e4e7;
+      right: 1px solid #e2e4e7;
+      top: 1px solid #e2e4e7;
+      radius: 3px 3px 0 0;
+    }
+  }
+  table {
+    border: 1px solid #e2e4e7;
+    background: white;
+  }
+  thead {
+    font-size: 11px;
+    font-weight: lighter;
+  }
+  span {
+    color: #666;
+  }
+  th {
+    padding: 0;
+  }
+  td {
+    padding: 0;
+    border: 1px solid #e2e4e7;
+    a,
+    span {
+      padding: 0;
+      text-align: center;
+      color: #666666;
+      padding: 5px 0;
+      &.ui-state-active {
+        background: #7cb7f1;
+        color: white;
+      }
+    }
+    a {
+      &:hover {
+        background: #7cb7f1;
+        color: white;
+      }
+    }
+  }
+  .ui-datepicker-prev,
+  .ui-datepicker-next {
+    cursor: pointer;
+    span{
+      margin-left: -4px;
+    }
+  }
+  .ui-datepicker-title {
+    select {
+      border: 1px solid #e2e4e7;
+      height: 22px;
+      margin: 0;
+      color: #666;
+      text-transform: uppercase;
+      & + select{
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+@import '../_resources';
+
+html {
+  height: 100%;
+
+  body {
+    height: 100%;
+
+    &.rules {
+      background: url('/images/general/background.png') no-repeat 50% 50% fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      z-index: 100;
+      font-size: 12px;
+
+      .container {
+        position: relative;
+        min-height: 100%;
+        height: auto;
+        margin: 0px auto -30px;
+
+        .user-info {
+          margin-top: 10px;
+          padding: 0;
+          color: $navy-blue;
+        }
+
+        .user-welcome {
+          width: 100%;
+
+          .sesion {
+            color: $navy-blue;
+            font-size: 0.83em;
+          }
+
+          .left {
+            float: left;
+            margin-left: 50px;
+          }
+
+          .right {
+            float: right;
+            margin-right: 47px;
+          }
+        }
+
+        .user-score {
+          text-align: center;
+          font-size: 0.83em;
+          border-top: 20px;
+        }
+
+        .questions {
+          margin-top: 10px;
+          padding: 0px;
+
+          i.contact {
+            display: block;
+            background-image: url('/images/general/contact.png');
+            width: 65px;
+            height: 51px;
+            float: left;
+
+            &:hover {
+              background-image: url('/images/general/contact-hover.png');
+            }
+          }
+        }
+
+        .main-title {
+          font-family: 'ITC Avant';
+          margin: 0;
+          padding: 0;
+          font-size: 4.6em;
+          font-weight: bold;
+          font-style: italic;
+          color: $orange;
+        }
+
+        .rules-text {
+          padding-bottom: 25px;
+
+          p {
+            font-size: 1.6em;
+            color: $navy-blue;
+            padding-top: 10px;
+            font-family: 'ITC Avant';
+            font-weight: normal;
+          }
+        }
+
+        .milk {
+          margin-top: 10px;
+
+          .left {
+            float: left;
+            width: 140px;
+            height: 200px;
+
+            p {
+              color: $navy-blue;
+              text-align: center;
+              margin:0;
+              font-family: 'ITC Avant';
+              font-size: 1em;
+            }
+
+            i.botle1 {
+              display: block;
+              background-image: url('/images/participationrules/enfapremium3400gm.png');
+              width: 70px;
+              height: 86px;
+              margin: 0 auto;
+              margin-top:10px;
+              margin-bottom:10px;
+            }
+
+            i.botle2 {
+              display: block;
+              background-image: url('/images/participationrules/enfapremium3sixpackm.png');
+              width: 107px;
+              height: 86px;
+              margin: 0 auto;
+              margin-top:10px;
+              margin-bottom:10px;
+            }
+
+            i.botle3 {
+              display: block;
+              background-image: url('/images/participationrules/enfapremium3o4600gm.png');
+              width: 66px;
+              height: 86px;
+              margin: 0 auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+
+            i.botle4 {
+              display: block;
+              background-image: url('/images/participationrules/enfapremium3800gm.png');
+              width: 66px;
+              height: 85px;
+              margin: 0 auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+
+            i.botle5 {
+              display: block;
+              background-image: url('/images/participationrules/enfapremium3o41200gm.png');
+              width: 63px;
+              height: 86px;
+              margin: 0 auto;
+              margin-top:10px;
+              margin-bottom:10px;
+            }
+          }
+          .specialenfagrow {
+            height: 35px;
+            width: 100%;
+            margin-top: 10px;
+            .special-text2 {
+              color: $navy-blue;
+              text-align: center;
+              margin:0;
+              font-family: 'ITC Avant';
+              font-size: 1em;
+              margin: 0 auto;
+              display: block;
+            }
+
+          }
+
+          .special-text {
+            width: 115px;
+            height: 200px;
+            padding-top: 30px;
+            p {
+              font-weight: bold;
+              font-style: italic;
+              color: $pink-bolder;
+              span {
+                font-weight: 500;
+                color: $blueblue;
+              }
+              .count {
+                font-weight: 600;
+              }
+            }
+            .text-bronw {
+              color: #ce8847;
+              span {
+                color: #ce8847;
+              }
+            }
+          }
+        }
+
+        .buttons {
+          margin-top: 10px;
+
+          .left {
+            float: left;
+
+            i.consult {
+              display: block;
+              background-image: url('/images/general/consult.png');
+              width: 111px;
+              height: 101px;
+
+              &:hover {
+                background-image: url('/images/general/consult-hover.png');
+              }
+            }
+          }
+
+          .right {
+            float: right;
+
+            i.star {
+              display: block;
+              background-image: url('/images/general/star.png');
+              width: 110px;
+              height: 100px;
+
+              &:hover {
+                background-image: url('/images/general/star-hover.png');
+              }
+            }
+          }
+        }
+
+        .register-ticket {
+          margin-top: 10px;
+
+          i.ticket-buttom {
+            display: block;
+            background-image: url('/images/participationrules/registerticket.png');
+            width: 285px;
+            height: 53px;
+
+            &:hover {
+              background-image: url('/images/participationrules/registertickethover.png');
+            }
+          }
+        }
+      }
+
+      footer {
+        position: relative;
+
+        &::before {
+          z-index: 200;
+        }
+
+        p {
+          background-color: #1d467d;
+          color: white;
+          text-align: center;
+          font-size: 0.8em;
+          height: 30px;
+          line-height: 30px;
+          width: 100%;
+          margin: 0;
+
+          a.privacity {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+              color: #d25c30;
+              text-decoration: underline;
+            }
+          }
+
+          .klein {
+            color: #FFF;
+            text-decoration: none;
+
+            &:hover {
+              color: #d25c30;
+              font-weight: bold;
+            }
+          }
+        }
+
+        .city {
+          position: absolute;
+          bottom: 0px;
+          z-index: -1;
+          left: 0;
+          right: 0;
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

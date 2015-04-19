@@ -1,0 +1,49 @@
+---
+production: &default
+  serverPort: 9191
+  baseUrl: http://www.enfagrow.com
+  cookieDomain: .enfagrow.com
+  views:
+    minify: true
+    sassPrecompile: true
+  html:
+    engine: handlebars
+    extension: .hbs
+    layout: main
+  controllers:
+    default: home
+  languages:
+    default: es
+    list: [en, es]
+  security:
+    secret: e3f3g3r3o3w.com
+  database:
+    mysql:
+      host: 127.0.0.1
+      user: root
+      password:
+      database: enfagrow
+      port: 3306
+      debug: true
+      socket: /var/mysql/mysql.sock
+    mongodb:
+      uri: mongodb://localhost/
+      database: enfagrow
+  google:
+    analytics:
+      id: UA-XXXXX-X
+
+stage: &stage
+  <<: *default
+  baseUrl: http://stage.enfagrow.com
+
+latest: &latest
+  <<: *stage
+  baseUrl: http://latest.enfagrow.com
+
+development:
+  <<: *latest
+  baseUrl: http://local.enfagrow.com
+  views:
+    minify: false
+    sassPrecompile: false

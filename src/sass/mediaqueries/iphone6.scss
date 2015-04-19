@@ -1,0 +1,48 @@
+@import '../../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables';
+
+@media only screen and (max-device-width: $screen-xs-max) {
+  .rules {
+    .user-welcome {
+      .left {
+        margin-right: 20px;
+      }
+
+      .right {
+        margin-right: 115px;
+      }
+    }
+    .register-ticket {
+      margin-left: 40px;
+    }
+  }
+
+  .personalities {
+    .play-button {
+      margin-left: 90px;
+    }
+  }
+}
+
+@media only screen and (max-device-width: $screen-xs-max) and (orientation: landscape) {
+  .rules {
+    .user-welcome {
+      .left {
+        margin-left: 250px;
+      }
+
+      .right {
+        margin-right: 255px;
+      }
+    }
+
+    .register-ticket {
+      padding-left: 170px;
+    }
+  }
+
+  .personalities {
+    .play-button {
+      padding-left: 170px;
+    }
+  }
+}

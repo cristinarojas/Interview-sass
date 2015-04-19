@@ -1,0 +1,82 @@
+footer {
+  position: relative;
+  margin-top: 30px;
+
+  &::before {
+    z-index: 200;
+  }
+
+  p {
+    background-color: #1d467d;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin: 0;
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      margin-top: 0px;
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+      margin-top: 0px;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      margin-left: 0px;
+      font-size: 0.4em;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+      margin-left: 0px;
+      font-size: 0.4em;
+    }
+
+    a.privacity {
+      color: #FFF;
+      text-decoration: none;
+
+      &:hover {
+        color: #d25c30;
+        text-decoration: underline;
+      }
+    }
+
+    .klein {
+      color: #FFF;
+      text-decoration: none;
+
+      &:hover {
+        color: #d25c30;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .city {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      bottom: 30px;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      margin-left: 0px !important;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+      margin-left: 0px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

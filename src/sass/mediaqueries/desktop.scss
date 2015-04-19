@@ -1,0 +1,49 @@
+$screen1920: 1920px;
+$screen1600: 1600px;
+$screen1440: 1440px;
+$screen1366: 1366px;
+$screen1280: 1280px;
+$screen1024: 1024px;
+$screen768:   768px;
+
+@media only screen and (max-width: $screen1920) {
+  body {
+    background: blue;
+  }
+}
+
+@media only screen and (max-width: $screen1600) {
+  body {
+    background: gray;
+  }
+}
+
+@media only screen and (max-width: $screen1440) {
+  body {
+    background: orange;
+  }
+}
+
+@media only screen and (max-width: $screen1366) {
+  body {
+    background: orange;
+  }
+}
+
+@media only screen and (max-width: $screen1280) {
+  body {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: $screen1024) {
+  body {
+    background: black;
+  }
+}
+
+@media only screen and (max-width: $screen768) {
+  body {
+    background: green;
+  }
+}

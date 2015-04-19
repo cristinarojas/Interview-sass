@@ -1,0 +1,199 @@
+@import '../_resources';
+@import '_generalFooter';
+
+html {
+  height: 100%;
+
+  body {
+    height: 100%;
+
+    &.personalities {
+      background: url('/images/general/background.png') no-repeat 50% 50% fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      z-index: 100;
+      font-size: 12px;
+
+      .container {
+        position: relative;
+        min-height: 100%;
+        height: 100%;
+        margin: 0px auto -60px;
+
+        .user-info {
+          margin-top: 10px;
+          padding: 0;
+          color: $navy-blue;
+        }
+
+        .user-welcome {
+          width: 100%;
+
+          .sesion {
+            color: $navy-blue;
+            font-size: 0.83em;
+          }
+
+          .left {
+            float: left;
+            margin-left: 50px;
+          }
+
+          .right {
+            float: right;
+            margin-right: 47px;
+          }
+        }
+
+        .user-score {
+          text-align: center;
+          font-size: 0.83em;
+          border-top:20px;
+        }
+
+        .questions {
+          margin-top: 10px;
+          padding: 0px;
+
+          i.contact {
+            display: block;
+            background-image: url('/images/general/contact.png');
+            width: 65px;
+            height: 51px;
+            float: left;
+
+            &:hover {
+              background-image: url('/images/general/contact-hover.png');
+            }
+          }
+        }
+
+        .main-title {
+          margin: 0;
+          padding: 0;
+          font-size: 2.15em;
+          text-transform: uppercase;
+          color: $light-blue;
+          font-weight: 600;
+          font-style: italic;
+          text-align: center;
+
+          .right {
+            color: $pink-bold;
+          }
+        }
+
+        .block {
+          width: 100%;
+          color: $navy-blue;
+          text-align: center;
+          font-size: 1em;
+
+          .left {
+            width: 25%;
+            float: left;
+
+            .icons-sprites {
+              $imagesTop: 0, -70px, -144px;
+              @include createSprite(77px, 68px, 10px, $imagesTop);
+            }
+          }
+
+          .right {
+            width: 70%;
+            float: left;
+            margin-top: 15px;
+          }
+        }
+
+        .item {
+          color: $navy-blue;
+          font-size: 0.92em;
+
+          .left {
+            width: 5%;
+            float: left;
+
+            .numbers-sprites {
+              $imagesTop: 0, -22px, -44px, -66px;
+              @include createSprite(24px, 21px, 5px, $imagesTop);
+            }
+          }
+
+          .right {
+            width: 80%;
+            float: left;
+            margin-top: 7px;
+          }
+        }
+
+        .midle-text {
+          font-size: .92em;
+          text-transform: uppercase;
+          color: $navy-blue;
+          text-align: center;
+        }
+
+        .play-instructions {
+          font-size: 2.15em;
+          text-transform: uppercase;
+          text-align: center;
+          color: #00afdc;
+          font-weight: 600;
+          font-style: italic;
+        }
+
+        .buttons {
+          margin-top: 10px;
+
+          .left {
+            float: left;
+
+            i.consult {
+              display: block;
+              background-image: url('/images/general/consult.png');
+              width: 111px;
+              height: 101px;
+
+              &:hover {
+                background-image: url('/images/general/consult-hover.png');
+              }
+            }
+          }
+
+          .right {
+            float: right;
+
+            i.star {
+              display: block;
+              background-image: url('/images/general/star.png');
+              width: 110px;
+              height: 100px;
+
+              &:hover {
+                background-image: url('/images/general/star-hover.png');
+              }
+            }
+          }
+        }
+
+        .play-button {
+          margin-top: 10px;
+
+          i.play {
+            display: block;
+            background-image: url('/images/personalities/play.png');
+            width: 163px;
+            height: 61px;
+
+            &:hover {
+              background-image: url('/images/personalities/play-hover.png');
+            }
+          }
+        }
+      }
+    }
+  }
+}
