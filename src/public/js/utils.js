@@ -1,8 +1,8 @@
 'use strict';
 
 (function(root, factory) {
-  root.Codejobs = root.Codejobs || {};
-  root.Codejobs.Utils = factory();
+  root.Enfagrow = root.Enfagrow || {};
+  root.Enfagrow.Utils = factory();
 }(window, function() {
   return {
     isJson: isJson
