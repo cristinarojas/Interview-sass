@@ -42,7 +42,7 @@ if (!config().views.sassPrecompile) {
       dest: __dirname + '/public/css',
       outputStyle: 'compressed',
       prefix: '/css',
-      debug: true
+      force: true
     })
   );
 }
