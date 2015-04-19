@@ -1,34 +1,16 @@
-<div class="row">
-  <div class="col-sm-3 col-sm-offset-8 user-info">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-2">
-        <div class="user-welcome clearfix">
-          <span class="left">¡Hola Cecillia!</span> <span class="right"><a href="#" class="sesion">Cerrar Sesión</a></span>
-        </div>
-
-        <div class="user-score">
-          Aún no tienes puntaje acumulado
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-1 questions clearfix">
-    <a href="#"><i class="contact"></i></a>
-  </div>
-</div>
+{{> user-info }}
 
 <div class="row">
   <div class="col-sm-10 col-sm-offset-2">
-    <h1 class="main-title">Reglas de Participación</h1>
+    <h1 class="main-title">{{{ __.rules.title }}}</h1>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-10 col-sm-offset-2">
     <div class="rules-text">
-      <p>1.- Cada ticket representa una oportunidad para jugar. Entre más tickets registres, más veces podrás jugar.</p>
-      <p>2.- Cada vez que juegues tendrás un tope de puntos posibles a alcanzar, de acuerdo a la presentación que registres como se muestra a continuación.</p>
+      <p>1. Cada ticket representa una oportunidad para jugar. Entre más tickets registres, más veces podrás jugar.</p>
+      <p>2. Cada vez que juegues tendrás un tope de puntos posibles a alcanzar, de acuerdo a la presentación que registres como se muestra a continuación.</p>
     </div>
   </div>
 </div>
@@ -117,5 +99,3 @@
     <a href="#"><i class="ticket-buttom"></i></a>
   </div>
 </div>
-
-
