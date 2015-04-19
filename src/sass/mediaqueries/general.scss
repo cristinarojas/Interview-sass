@@ -2,12 +2,10 @@
 
 @media only screen and (max-device-width: $screen-xs-max) {
   html {
+    height: 100%;
+
     body {
       height: auto;
-
-      footer {
-        font-size: 1.6em;
-      }
     }
   }
 }

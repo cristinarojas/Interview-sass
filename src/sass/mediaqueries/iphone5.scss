@@ -1,13 +1,50 @@
 @import '../../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables';
 
 @media only screen and (max-device-width: $screen-xs-max) {
-  .personalities {
-    .questions {
-      float: right;
-      margin-right: 10px;
-      margin-bottom: 10px;
+  .user-welcome {
+    .left {
+      margin-left: 90px;
     }
 
+    .right {
+      margin-right: 90px;
+    }
+  }
+
+  .questions {
+    float: right;
+    margin-top: -33px;
+    margin-right: 5px;
+  }
+
+  footer {
+    font-size: 0.5em;
+  }
+
+  .rules {
+    .main-title {
+      font-size: 1.9em !important;
+      margin-top: 20px !important;
+    }
+
+    .rules-text {
+      padding-bottom: 0px;
+
+      p {
+        font-size: 1em !important;
+      }
+    }
+
+    .register-ticket {
+      margin-left: 5px;
+    }
+
+    footer {
+      margin-top: 50px;
+    }
+  }
+
+  .personalities {
     .block {
       .right {
         padding-left: 20px;
@@ -20,31 +57,63 @@
       }
     }
 
+    .play-instructions {
+      font-size: 1.5em;
+    }
+
     .play-button {
-      padding-left: 80px;
+      margin-left: 65px;
       margin-bottom: 50px;
     }
   }
 }
 
 @media only screen and (max-device-width: $screen-xs-max) and (orientation: landscape) {
-  .rules {
-    .user-welcome {
-      .left {
-        margin-left: 218px;
-      }
-
-      .right {
-        margin-right: 210px;
-      }
+  .user-welcome {
+    .left {
+      margin-left: 173px;
     }
-    .register-ticket {
-      padding-left: 150px;
+
+    .right {
+      margin-right: 165px;
     }
   }
+
+  .questions {
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    font-size: 0.65em;
+  }
+
+  .rules {
+    .main-title {
+      margin-top: 0px
+    }
+
+    .register-ticket {
+      margin-left: 130px;
+    }
+
+    footer {
+      .city {
+        margin-left: 0px;
+      }
+    }
+  }
+
   .personalities {
+    .item {
+      .right {
+        padding-left: 15px;
+      }
+    }
+
     .play-button {
-      margin-left: 120px;
+      margin-left: 210px;
     }
   }
 }

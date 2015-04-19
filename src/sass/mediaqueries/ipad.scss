@@ -1,6 +1,10 @@
 @import '../../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables';
 
 @media only screen and (min-device-width: $screen-xs-max) {
+  footer {
+    padding-top: 40px;
+  }
+
   .user-welcome {
     .left {
       margin-left: 8px;
@@ -32,21 +36,9 @@
       margin-left: 50px;
       margin-top: 35px;
     }
-
-    footer {
-      p {
-        margin-top: 0px;
-      }
-
-      .city {
-        bottom: 30px;
-      }
-    }
   }
 
   .personalities {
-
-
     .block {
       .right {
         padding-left: 15px;
@@ -103,12 +95,6 @@
     .register-ticket {
       margin-left: 100px;
     }
-
-    footer {
-      p {
-        margin-top: 0px;
-      }
-    }
   }
 
     .buttons {
@@ -124,9 +110,5 @@
     .play-button {
       margin-left: 100px;
     }
-  }
-
-  footer {
-    margin-top: 35px;
   }
 }

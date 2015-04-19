@@ -1,48 +1,119 @@
 @import '../../public/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables';
 
 @media only screen and (max-device-width: $screen-xs-max) {
-  .rules {
-    .user-welcome {
-      .left {
-        margin-right: 20px;
-      }
+  .user-welcome {
+    .left {
+      margin-left: 90px;
+    }
 
-      .right {
-        margin-right: 115px;
+    .right {
+      margin-right: 90px;
+    }
+  }
+
+  .questions {
+    float: right;
+    margin-top: -33px;
+    margin-right: 5px;
+  }
+
+  footer {
+    font-size: 0.5em;
+  }
+
+  .rules {
+    .main-title {
+      font-size: 1.9em !important;
+      margin-top: 20px !important;
+    }
+
+    .rules-text {
+      padding-bottom: 0px;
+
+      p {
+        font-size: 1em !important;
       }
     }
+
     .register-ticket {
-      margin-left: 40px;
+      margin-left: 35px;
+    }
+
+    footer {
+      margin-top: 50px;
     }
   }
 
   .personalities {
+    .block {
+      .right {
+        padding-left: 20px;
+      }
+    }
+
+    .item {
+      .right {
+        padding-left: 25px;
+      }
+    }
+
+    .play-instructions {
+      font-size: 1.5em;
+    }
+
     .play-button {
       margin-left: 90px;
+      margin-bottom: 50px;
     }
   }
 }
 
 @media only screen and (max-device-width: $screen-xs-max) and (orientation: landscape) {
-  .rules {
-    .user-welcome {
-      .left {
-        margin-left: 250px;
-      }
+  .user-welcome {
+    .left {
+      margin-left: 173px;
+    }
 
-      .right {
-        margin-right: 255px;
-      }
+    .right {
+      margin-right: 165px;
+    }
+  }
+
+  .questions {
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    font-size: 0.65em;
+  }
+
+  .rules {
+    .main-title {
+      margin-top: 0px
     }
 
     .register-ticket {
-      padding-left: 170px;
+      margin-left: 190px;
+    }
+
+    footer {
+      .city {
+        margin-left: 0px;
+      }
     }
   }
 
   .personalities {
+    .item {
+      .right {
+        padding-left: 15px;
+      }
+    }
+
     .play-button {
-      padding-left: 170px;
+      margin-left: 250px;
     }
   }
 }
