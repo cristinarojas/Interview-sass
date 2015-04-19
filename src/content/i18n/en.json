@@ -8,13 +8,15 @@
       "description": "Learn to code"
     }
   },
-  "menu": {
-    "register": "Register",
-    "login": "Login"
+  "users": {
+    "hi": "Hi",
+    "logout": "Logout",
+    "score": "Your score is empty"
   },
-  "blog" : {
-    "posts": {
-      "title": "Post title"
-    }
+  "personalities": {
+    "title": "¿Te has preguntado <span class=\"right\">qué va ser tu hijo de grande?</span>"
+  },
+  "rules": {
+    "title": "Reglas de Participación"
   }
 }

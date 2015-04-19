@@ -8,13 +8,15 @@
       "description": "Aprende a programar"
     }
   },
-  "menu": {
-    "register": "Registro",
-    "login": "Conectar"
+  "users": {
+    "hi": "¡Hola",
+    "logout": "Cerrar Sesión",
+    "score": "Aún no tienes puntaje acumulado"
   },
-  "blog" : {
-    "posts": {
-      "title": "Título de la publicación"
-    }
+  "personalities": {
+    "title": "¿Te has preguntado <span class=\"right\">qué va ser tu hijo de grande?</span>"
+  },
+  "rules": {
+    "title": "Reglas de Participación"
   }
 }
